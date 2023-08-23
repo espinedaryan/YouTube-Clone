@@ -1,0 +1,97 @@
+.shorts-tab {
+    margin-top: 24px;
+    margin-left: 32px;
+    margin-right: 17px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+
+}
+
+.shorts-alignment {
+    display: flex;
+    align-items: center;
+}
+
+.youtube-shorts-icon {
+    height: 20px;
+    margin-right: 10px;
+}
+
+.shorts-text {
+    font-size: 20px;
+    margin-left: 2px;
+}
+
+.x-button {
+    background-color: white;
+    padding: 5px;
+    padding-top: 7px;
+    padding-left: 7px;
+    padding-right: 7px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 250ms;
+}
+
+.x-button:hover {
+    background-color: rgb(240, 240, 240);
+}
+
+.x-icon {
+    height: 20px;
+}
+
+.shorts-container-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+    column-gap: 20px;
+    row-gap: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.shorts-thumbnail-container {
+    margin-bottom: 10px;
+}
+
+.shorts-thumbnail {
+    width: 100%;
+    border-radius: 12px;
+    transition: border-radius 250ms;
+    transition: width 250ms;
+}
+
+.shorts-thumbnail:hover {
+    width: 99%;
+    border-radius: 0px;
+}
+
+.shorts-info-grid {
+    line-height: 22px;
+    display: grid;
+    grid-template-columns: 1fr 9px;
+}
+
+.shorts-title {
+    font-weight: 500;
+}
+
+.shorts-stats {
+    font-size: 14px;
+    font-weight: 400;
+    color: #606060;
+}
+
+.shorts-button {
+    width: 9px;
+}
+
+.kebab-menu {
+    width: 20px;
+    margin-right: 10px;
+}
